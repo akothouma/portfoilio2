@@ -17,7 +17,7 @@ function Home() {
                     <p>
                         I  am a full-stack software developement apprentice.<br />
                         Currently,I'm focused on upskilling and building with golang and javascript.<br />
-                        You'll find me at <Link to="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.zone01kisumu.ke/&ved=2ahUKEwiX8drbgNKJAxX69bsIHV-kIXEQFnoECAsQAQ&usg=AOvVaw28_6nlrYkC_vQGxtQBzceW" style={{textDecoration:"none"}}><span>Zone01 Kisumu</span></Link>
+                        You'll find me at <Link to="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.zone01kisumu.ke/&ved=2ahUKEwiX8drbgNKJAxX69bsIHV-kIXEQFnoECAsQAQ&usg=AOvVaw28_6nlrYkC_vQGxtQBzceW" style={{textDecoration:"none"}}><span>Zone01 Kisumu.</span></Link>
 
                     </p>
                    
