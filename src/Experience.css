@@ -1,0 +1,24 @@
+.content1{
+    position: absolute;
+    inset: 100px;
+    height: fit-content;
+    max-width: 100vw;
+    max-height: 100dvh;
+    margin: auto;
+    font-weight: 400;
+    text-align: center;
+    
+}
+@media (max-width:768px){
+    .content1{
+        max-width: 50vw;
+        max-height: 75dvh;
+    }
+    .stacks{
+       flex-direction: row;
+    }
+    h2{
+        font-size: 18px;
+    }
+    
+}

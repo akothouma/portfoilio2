@@ -1,0 +1,17 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    gap:20px
+
+}
+
+@media (max-width:768px){
+    .card-container{
+        flex-direction: column;
+       
+    }
+    h3{
+        font-size: 18px;
+    }
+    
+}

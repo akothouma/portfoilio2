@@ -1,0 +1,52 @@
+ .overall { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+    
+  
+   
+ }
+ .otherComponents{
+    display: flex;
+    position: end;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:40px;
+    font-family: fedora;
+    
+   
+   
+ }
+Link{
+    text-decoration: none;
+    color:'rgb(255,92,0)';
+}
+
+.intro{
+    display: flex;
+    gap:20px;
+}
+/* button{
+    text-decoration: none;
+    background-color:rgb(22,33,20) ;
+    padding: 12px 20px;
+    color:rgb(255,92,0);
+    border: none;
+    border-radius: 30%;
+    width: fit-content;
+} */
+/* span{
+    color:rgb(255,240,210);
+   
+} */
+@media (max-width: 768px) {
+    .otherComponents { flex-direction: column;gap:10px;
+
+   } 
+   @media (min-width: 768px) { 
+   .otherComponents {
+    flex-direction: row; 
+     } 
+   }
+}
