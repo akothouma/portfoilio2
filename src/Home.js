@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <NavBar />
-
+{/* <Socials /> */}
 
             <div className="content">
                 <div style={{ margin: "auto" }}>

@@ -18,7 +18,7 @@ export default function ProjectCard() {
   return (
     <div style={{ display: 'flex', flexDirection: "column"}}>
       <div>
-        <h3 style={{alignItems:'center',color:"rgb(255,92,0)"}}> Recent projects</h3>
+        <h2 style={{alignItems:'center',color:"rgb(255,92,0)"}}> Recent projects</h2>
       </div>
       <div className='card-container'>
         {data.map((datum, key) => {
