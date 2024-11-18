@@ -9,15 +9,14 @@
     font-weight: 400;
     text-align: center;
     color: white;
-   
-   display: flex;
-   flex-direction:column;
-   gap: 10px;
     
 }
 
-/* #contact-form{
-} */
+form{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+} 
 .rowformRow{
     display: flex;
     flex-direction: row;
