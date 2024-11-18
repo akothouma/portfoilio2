@@ -47,8 +47,10 @@ button Link{
     text-decoration: none;
 }
 
+
 @media (max-width: 768px) {
     .content { flex-direction: column;
+        top: 80%;
      .picture{
         width: 50%;
         display: block;
@@ -64,5 +66,6 @@ button Link{
    @media (min-width: 768px) { 
    .content {
     flex-direction: row; 
+    
      } 
    }
