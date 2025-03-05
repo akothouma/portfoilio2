@@ -4,9 +4,9 @@
     justify-content: space-between;
     gap:2px;
     width: 30px;
-    inset: 20;
     position: absolute;
     top: 50%;
+    
    
 
 } 
@@ -30,6 +30,6 @@
  
  @media (min-width: 768px) { 
  .content {
-  flex-direction: ro; 
+  flex-direction: row; 
    } 
  } 

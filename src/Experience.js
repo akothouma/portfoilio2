@@ -11,7 +11,8 @@ function Experience() {
             <Socials />
             <div className="content1">
                 <ProjectCard />
-                <h2>Developmental tools</h2>
+                <a href="https://github.com/akothouma" style={{marginTop:"10px"}}>View other projects on github</a>
+                <h2 style={{color:'#532980'}}>Developmental tools</h2>
       <div className="stacks" style={{ display: "flex", flexDirection: 'row', gap: "20px", justifyContent: "center" }}>
         <div style={{ width: "40px" }}>
           <svg width="40px" height="40px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">

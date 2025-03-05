@@ -16,35 +16,35 @@ export default function ProjectCard() {
     <Link to={url}></Link>
   }
   return (
-    <div style={{ display: 'flex', flexDirection: "column" }}>
+    <div style={{ display: 'flex', flexDirection: "column"  ,maxWidth:'1300px',margin:'auto',paddingLeft:'20px'}}>
      
       <div>
 
-        <h2 style={{ alignItems: 'center', color: "rgb(255,92,0)" }}> Recent projects</h2>
+        <h2 style={{ alignItems: 'center', color: "#532980" }}> Recent projects</h2>
       </div>
       <div className='card-container'>
         {data.map((datum, key) => {
           return (
-            <Card sx={{ backgroundColor: "transparent", border: "1px solid rgb(255,92,0)", borderRadius: "10px" }} key={key}>
+            <Card sx={{ backgroundColor: "transparent", border: "1px solid #3C0061;", borderRadius: "10px" }} key={key}>
               <CardHeader
                 title={datum.title}
                 titleTypographyProps={{
                   sx: {
-                    color: "rgb(255,92,0)", // Title color
+                    color: '#3C0061', // Title color
                     fontWeight: "bold",   // Title font weight
                   },
                 }}
                 subheader={datum.languages}
                 subheaderTypographyProps={{
                   sx: {
-                    color: "rgb(255,92,0)", // Subheader color
+                    color: "#3C0061;", // Subheader color
                   },
                 }}
               />
 
 
               <CardContent sx={{ color: "white" }}>
-                <Typography variant="body2" sx={{ color: 'white' }}>
+                <Typography variant="body2" sx={{ color: '#532980' }}>
                   {datum.synopsis}
                 </Typography>
               </CardContent>
@@ -56,7 +56,7 @@ export default function ProjectCard() {
                 <Button 
                   style={{ 
                     color: "white", 
-                    backgroundColor: "rgb(255,92,0)", 
+                    backgroundColor: "#3C0061", 
                     marginBottom: '15px', 
                     fontWeight: "bold", 
                     alignSelf: "center" 
